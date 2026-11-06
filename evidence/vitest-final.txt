@@ -1,0 +1,23 @@
+Command: npm test
+Working directory: /workspace
+Date: 2026-11-06T03:03:03Z
+
+> 404-necromancer@0.0.1 test
+> vitest run
+
+ RUN  v2.1.9 /workspace
+
+ ✓ src/core/link-scanner.test.ts (12 tests)
+ ✓ src/core/href-resolver.test.ts (26 tests)
+ ✓ src/core/byte-patcher.test.ts (14 tests)
+ ✓ src/core/html-parser.test.ts (20 tests)
+ ✓ src/core/fixture.integration.test.ts (2 tests)
+
+ Test Files  5 passed (5)
+      Tests  74 passed (74)
+ Duration  444ms
+
+Command exit: 0
+
+Typecheck: npx tsc -p tsconfig.json --noEmit
+Exit: 0

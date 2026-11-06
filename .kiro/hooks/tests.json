@@ -1,0 +1,1 @@
+{"version":"v1","hooks":[{"name":"run-unit-tests","description":"Run the local Vitest suite after TypeScript edits","trigger":"PostFileSave","matcher":"\\.(ts|tsx)$","action":{"type":"command","command":"npm test"},"timeout":120,"enabled":true}]}
